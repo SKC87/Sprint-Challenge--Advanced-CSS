@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="SpaceWalkers" content="Astronauts are SpaceWalkers">
 
   <title>SpaceWalkers</title>
 
@@ -18,10 +19,25 @@
 
  <!-- navigation code here -->
 
+ <header class="main-navigation">
+  <div class="container nav-container">
+    <h1 class="logo-heading">SpaceWalkers</h1>
+    <nav class="nav">
+      <a class="nav-link" href="#">Home</a>
+      <a class="nav-link" href="#">About Us</a>
+      <a class="nav-link" href="#">Blog</a>
+      <a class="nav-link" href="#">Contact</a>
+      <a class="nav-link" href="#">Sign In</a>
+    </nav>
+  </div>
+</header>
+
   <div class="container home">
 
     <header class="intro">
        <!-- image code here -->
+
+       <img src="img\main-header.png" alt="Earth and Clouds">
 
       <h2>Lift Off</h2>
     
@@ -51,16 +67,32 @@
       
         <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       
-        <div class="btn">
-          Sign Up
-        </div>
+        <button class="btn-class">Sign Up</button>
       </div>
       
       <div class="walk-img">
           <img src="img/space-walk.png" alt="Space walking astronaut">
       </div>
 
+
     </section>
+
+    <h3>Sign Up for a SpaceWalkers Magazine Subscription!</h3>
+    <p></p>
+    
+    <form action="/action_page.php">
+      <fieldset>
+        <legend>Enter Your Information Below</legend>
+        First name:<br>
+        <input type="text" name="firstname" value="Jon">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" value="Doe">
+        <br><br>
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+    <section>
 
     <footer>
       <p>Copyright SpaceWalkers 2018</p>
