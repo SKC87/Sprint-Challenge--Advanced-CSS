@@ -228,10 +228,17 @@ footer {
 }
 */
 
+/*Header styles*/
+
 @media (max-width: 500px) {
 
   header {
     justify-content: center;
+    flex-direction: column;
+  }
+
+  header h1 {
+    font-size: 2rem;
   }
 
   header nav {
