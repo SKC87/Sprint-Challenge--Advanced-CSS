@@ -157,7 +157,11 @@ p {
 }
 
 header h1 {
-  font-size: 2rem;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .container {
