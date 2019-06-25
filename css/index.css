@@ -222,7 +222,60 @@ footer {
   border-radius: 10px;
 }
 
-@media (max-width: 500px)
+/*@media (max-width: 500px)
 .main-navigation .nav-container .logo-heading {
     font-size: 3rem;
+}
+*/
+
+@media (max-width: 500px) {
+
+  header {
+    justify-content: center;
+  }
+
+  header nav {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  header nav a {
+      width: 100%;
+      display: block;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 2rem;
+      border-bottom: 1px solid gray;
+  }
+
+  header nav:first-child {
+      border-top: 1px solid gray;
+  }
+
+  header nav a:hover {
+      background: gray;
+  }
+
+  header .logo {
+      margin: 20px 0;
+  }
+
+  .cta {
+      margin-top: 50px;
+  }
+
+  .main-content {
+    padding-top: 55px;
+  }
+
+  .main-content .top-content {
+      flex-wrap: wrap;
+      height: 300px;
+  }
+
+  .main-content .bottom-content {
+      flex-wrap: wrap;
+      align-content: space-between;
+      height: 440px;
+  }
 }
